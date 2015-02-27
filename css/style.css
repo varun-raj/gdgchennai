@@ -274,7 +274,7 @@ section.content.home-schedule .btn {
   color: #fff;
   background: rgba(47,151,121,.2);
   display: inline-block;
-  border: 2px solid #2f9779;
+  border: 2px solid #008094;
   font-size: 13px;
   letter-spacing: .08em;
   line-height: 14px;
@@ -286,18 +286,18 @@ background: rgba(47,151,121,.4);
 color: #fff;
 }
 .btn-gray {
-  color: #04203e;
+  color: #fff;
   background: 0 0;
-  border-color: #c3c9d0;
+  border-color: #fff;
 }
 .btn-gray:hover {
   background-color: rgba(0,0,0,.015);
   border-color: #929EAC;
-  color: #04203e;
+  color: #fff;
 }
 section.next-event {
   position: relative;
-  padding-bottom: 380px;
+  padding-bottom: 150px;
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
@@ -681,6 +681,7 @@ p.small {
 .loaded .slider-test h1, .loaded .slider-test h3, .loaded .slider-test a, .loaded .carousel, .loaded header, .loaded .about-inner h1, .loaded .about-inner p, .loaded .about-inner h5 {
   -webkit-animation: animLoadedContent 1s cubic-bezier(0.7, 0, 0.3, 1) both;
   animation: animLoadedContent 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  padding-bottom: 20px;
 }
 .loaded .slider-test h1, .loaded .slider-test h3, .loaded .slider-test a, .loaded .carousel, .loaded header, .loaded .about-inner h1, .loaded .about-inner p, .loaded .about-inner h5  {
   -webkit-animation-delay: 0.2s;
@@ -867,4 +868,8 @@ p.small {
     font-size: 35px;
     margin-bottom: 0px;
   }
+}
+
+.Venue--Day--Styling {
+  background-color:rgba(255, 255, 255, 0.5);
 }
