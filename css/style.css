@@ -70,7 +70,6 @@ span{
   margin-bottom: 10px;
 }
 .logo{
-  background-image: url(../images/f8-logo.svg);
   background-size: 168px 70px;
   display: inline-block;
   text-indent: -119988px;
@@ -360,24 +359,11 @@ section.content.gdg-women {
   color: #999;
   color: rgba(255,255,255,.5);
 }
+
 footer{
-  padding-top: 34px;
+  padding-top: 3px;
 }
-.f8-mark-b {
-  background-image: url(../images/f8-mark-b.svg);
-  background-size: 65px 65px;
-}
-.f8-mark-b{
-  width: 65px;
-  height: 65px;
-}
-.f8-mark-b{
-  display: inline-block;
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-repeat: no-repeat;
-}
+
 .foot-first{
   padding: 5px 0 50px 0;
 }
@@ -552,7 +538,7 @@ p.small {
   top: 0;
   z-index: 0;
   opacity: .3;
-  background: url(../images/karthick.jpg) center/cover no-repeat;
+  background: url(../images/we-heart-devs.jpg) center/cover no-repeat;
 }
 .position-r{
   position: relative;
@@ -872,4 +858,9 @@ p.small {
 
 .Venue--Day--Styling {
   background-color:rgba(255, 255, 255, 0.5);
+}
+
+.caption a {
+  color: #000000;
+  text-decoration: underline;
 }
