@@ -204,8 +204,13 @@ a.head-brand:hover{
 .slider-test h1{  
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  font-size: 112px;
+  font-size: 72px;
   font-weight: 600;
+}
+.slider-test h5{  
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  
 }
 .slider-test h3{
   font-family: 'Roboto', sans-serif;
@@ -1038,25 +1043,25 @@ ol,ul {
 
 .WTM-Speakers{
   padding: 45px;
-  background-color: #E0E0E0;
+  background-color: #FFF;
 }
 
 .WTM-Side{
-  float: right;
-  width: 35%;
-  background-color: #465a65;
-  color: #FFFFFF;
+  
   padding:30px;
   margin-top:30px;
   border-radius: 10px;
 }
 
+.Countown-Color{
+background-color: #F15245;
+color: #FFFFFF;
+}
+
 .WTM-Speakers-Content{
-  width: 60%;
-  border-radius: 10px;
-  padding: 45px;
-  margin: 30px;
-  background-color: #fff;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .shadow {
@@ -1075,7 +1080,6 @@ ol,ul {
   padding: 20px;
   background-color: #fff;
   color: #000;
-  border-radius: 10px;
 }
 
 .margin-b-7x{
@@ -1134,4 +1138,28 @@ ol,ul {
   -moz-animation-delay: 12s;
   -ms-animation-delay: 12s;
   animation-delay: 12s;
+}
+
+.WTM--Description{
+padding: 35px;
+  }
+
+.WTM--Description h6{
+  text-transform: none;
+}
+
+.WTM--Image img{
+  float: right;
+  height: 100%;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.WTM--Image{
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.Countown--Apply{
+  float: right;
 }
