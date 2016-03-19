@@ -204,8 +204,13 @@ a.head-brand:hover{
 .slider-test h1{  
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  font-size: 112px;
+  font-size: 72px;
   font-weight: 600;
+}
+.slider-test h5{  
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  
 }
 .slider-test h3{
   font-family: 'Roboto', sans-serif;
@@ -341,7 +346,7 @@ left: 0;
   -ms-transform: translate3d(0,0,0);
   -o-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-  background: url(../images/home-together.jpg) bottom/cover no-repeat;
+  background: url(../images/pexels-photo.jpg) bottom/cover no-repeat;
 }
 .margin-t-10x{
   margin-top: 50px;
@@ -915,6 +920,7 @@ ol,ul {
   -ms-animation-delay: 12s;
   animation-delay: 12s;
 }
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
   0% {
@@ -1005,4 +1011,155 @@ ol,ul {
 }
 @media screen and (max-width: 600px) { 
   .gdg-slideshow li div h3 { font-size: 50px }
+}
+
+.tc{
+  text-align: center;
+}
+
+.btn-apply{
+  background-color: #f1524c;
+  color: #fff;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+
+.btn-apply:hover{
+  background-color: #fff;
+  color: #f1524c;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.WTM-Padding{
+  padding:0px;
+}
+
+.WTM-Speakers{
+  padding: 45px;
+  background-color: #FFF;
+}
+
+.WTM-Side{
+  
+  padding:30px;
+  margin-top:30px;
+  border-radius: 10px;
+}
+
+.Countown-Color{
+background-color: #F15245;
+color: #FFFFFF;
+}
+
+.WTM-Speakers-Content{
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.shadow {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    -ms-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+
+.WTM-Side ul li {
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.Card{
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.margin-b-7x{
+  margin-bottom: 35px;
+}
+
+.not-active {
+   pointer-events: none; 
+   cursor: none;
+}
+
+.wtm-slideshow,
+.wtm-slideshow:after {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 561px;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.wtm-slideshow:after {
+  content: '';
+}
+.wtm-slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 18s linear infinite 0s;
+  -moz-animation: imageAnimation 18s linear infinite 0s;
+  -ms-animation: imageAnimation 18s linear infinite 0s;
+  animation: imageAnimation 18s linear infinite 0s;
+}
+.wtm-slideshow li:nth-child(1) span { 
+  background-image: url(../images/startup-pho.jpg) ;
+}
+.wtm-slideshow li:nth-child(2) span {
+  background-image: url(../images/hands-people-woman-meeting.jpg);
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+.wtm-slideshow li:nth-child(3) span {
+  background-image: url(../images/startup-photos.jpg);
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.WTM--Description{
+padding: 35px;
+  }
+
+.WTM--Description h6{
+  text-transform: none;
+}
+
+.WTM--Image img{
+  float: right;
+  height: 100%;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.WTM--Image{
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.Countown--Apply{
+  float: right;
 }
