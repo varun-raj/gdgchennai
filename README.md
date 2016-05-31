@@ -2,13 +2,12 @@
 
 The official website of Google Developers Group Chennai
 
-**Important Links**
-* [Compiling and Running](#compiling--running)
-* [License](#license)
-* [Authors](#authors)
+### Contributing Guidelines
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo
+2. [Clone] (https://help.github.com/articles/cloning-a-repository/) your newly forked repo
+3. Raise pull requests to [skcript/GDGChennai](https://github.com/skcript/gdgchennai)
 
-### Compiling & Running
-1. Clone this repo: `git clone https://github.com/skcript/gdgchennai.git`
-2. Now run `cd gdgchennai`
-3. Just run `jekyll serve --watch`
-4. Access the site at `http://localhost:4000`
+### Setting up Developer Environment
+1. "cd" into the directory `cd gdgchennai`
+2. Run `jekyll serve --watch`
+3. Access the site at `http://localhost:4000`
